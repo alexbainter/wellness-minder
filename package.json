@@ -1,0 +1,34 @@
+{
+  "name": "wellness-minder",
+  "version": "0.0.0",
+  "description": "Triggers healthy habits like taking breaks and resting one's eyes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron \".\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalex9/wellness-minder.git"
+  },
+  "keywords": [
+    "reminder",
+    "break",
+    "rest",
+    "eyes",
+    "eyestrain",
+    "healthy",
+    "health",
+    "wellness"
+  ],
+  "author": "Alex Bainter <alexbainter+github@gmail.com> (http://alexbainter.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metalex9/wellness-minder/issues"
+  },
+  "homepage": "https://github.com/metalex9/wellness-minder#readme",
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "node-notifier": "^5.2.1"
+  }
+}
