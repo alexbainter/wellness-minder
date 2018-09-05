@@ -1,12 +1,10 @@
 const { app, Menu, Tray, BrowserWindow } = require('electron');
-const notifier = require('node-notifier');
 
 let win;
 let running = true;
 
 const tick = timeInMinutes => {
   if (running) {
-    console.log(timeInMinutes);
     if (timeInMinutes > 0) {
       let message;
       if (timeInMinutes % 60 === 0) {
