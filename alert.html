@@ -3,7 +3,7 @@
     <div id="text"></div>
     <button type="button" id="done">Done</button>
     <script>
-      const { remote, ipcRenderer } = require('electron');
+      const { remote } = require('electron');
       const me = remote.getCurrentWindow();
       document.getElementById('text').innerHTML = me.text;
       document.getElementById('done').onclick = () => {
