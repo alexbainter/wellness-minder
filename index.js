@@ -29,7 +29,7 @@ const tick = timeInMinutes => {
         return;
       }
     }
-    setTimeout(() => tick(timeInMinutes + 1), 100);
+    setTimeout(() => tick(timeInMinutes + 1), 1000 * 60);
   }
 };
 
