@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/metalex9/wellness-minder#readme",
   "devDependencies": {
-    "electron": "^2.0.8"
+    "electron": "^7.1.14"
+  },
+  "dependencies": {
+    "redux": "^4.0.4"
   }
 }

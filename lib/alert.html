@@ -5,10 +5,11 @@
     <script>
       const { remote } = require('electron');
       const me = remote.getCurrentWindow();
+      console.log(me);
       document.getElementById('text').innerHTML = me.text;
       document.getElementById('done').onclick = () => {
         me.close();
-      }
+      };
     </script>
   </body>
 </html>
